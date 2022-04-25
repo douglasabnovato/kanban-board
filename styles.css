@@ -49,4 +49,6 @@ main{
 
 .add-card p{
     font-size: 16px;
+    padding: 0 6px;
+    font-weight: 100;
 }

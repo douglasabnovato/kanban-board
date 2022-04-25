@@ -22,6 +22,7 @@
 
 - estrutura em html
 - estilização em css
+- google font com @import
 - lógica em javascript
 
 ### 😯 Finalizado 
