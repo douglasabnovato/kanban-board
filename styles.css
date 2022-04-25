@@ -3,5 +3,17 @@
 }
 
 body{
-    background: rgb(245, 243, 158);
+    background: rgb(255, 212, 123);
+    background: radial-gradient(
+        circle,
+        rgba(255, 212, 123, 1) 0%,
+        rgba(255, 71, 145, 1) 100%
+    );
+}
+
+section.board{
+    background-color: white;
+    width: 320px;
+    height: 100px;
+    margin: 4px;
 }
