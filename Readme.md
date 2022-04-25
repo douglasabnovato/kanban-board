@@ -20,7 +20,9 @@
 
 ### 🛠 Construindo 
 
-- tarefas
+- estrutura em html
+- estilização em css
+- lógica em javascript
 
 ### 😯 Finalizado 
 
