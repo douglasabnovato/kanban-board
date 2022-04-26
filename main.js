@@ -30,9 +30,11 @@ function over(event) {
 
 function drop(event, id) {
   event.preventDefault();
+  
   const target = document.getElementById(id);
   const data = event.dataTransfer.getData("card");
   const card = document.getElementById(data);
+
   target.appendChild(card);
   event.dataTransfer.clearData();
 }
