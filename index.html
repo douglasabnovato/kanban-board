@@ -15,58 +15,18 @@
     </header>
     <main>
         <div class="board">
-
             <h3 class="title">À Fazer</h3>
-
             <ul id="a-fazer" class="todo-list">
-                <li>
-                    <p>Dormir</p>
-                    <p class="remove">x</p>
-                </li>
-                <li>
-                    <p>Acordar Antes</p>
-                    <p class="remove">x</p>
-                </li>
-                <li>
-                    <p>Aprontar-me</p>
-                    <p class="remove">x</p>
-                </li>
-                <li>
-                    <p>Tomar Café</p>
-                    <p class="remove">x</p>
-                </li>
-                <li>
-                    <p>Ver DP</p>
-                    <p class="remove">x</p>
-                </li>
-                <li>
-                    <p>Meditar</p>
-                    <p class="remove">x</p>
-                </li>
-                <li>
-                    <p>Construir</p>
-                    <p class="remove">x</p>
-                </li>
-                <li>
-                    <p>Alimentar-me</p>
-                    <p class="remove">x</p>
-                </li>
-                <li>
-                    <p>+ um passo</p>
-                    <p class="remove">x</p>
-                </li>
             </ul>
-
-            <div class="add-card" onclick="addCard()">
+            <div class="add-card" onclick="addCard(this)">
                 <p>Adicionar tarefa</p>
             </div>
-
         </div>
         <div class="board">
             <h3 class="title">Fazendo</h3>
             <ul id="fazendo" class="todo-list">
             </ul>
-            <div class="add-card" onclick="addCard()">
+            <div class="add-card" onclick="addCard(this)">
                 <p>Adicionar tarefa</p>
             </div>
         </div>
@@ -74,7 +34,7 @@
             <h3 class="title">Feito</h3>
             <ul id="feito" class="todo-list">
             </ul>
-            <div class="add-card" onclick="addCard()">
+            <div class="add-card" onclick="addCard(this)">
                 <p>Adicionar tarefa</p>
             </div>
         </div>
