@@ -33,7 +33,7 @@
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Um kanban de tarefas" title="#DrivenChallengeKanban" src="./.github/modo-1.jpg" width="400px">
-  <img alt="Um kanban de tarefas" title="#DrivenChallengeKanban" src="./.github/modo-2.jpg" width="400px">
+  <img alt="Um kanban de tarefas" title="#DrivenChallengeKanban" src="./.github/modo-2.jpg" height="400px">
 </p>
 
 ### 🧭 Adicionado
