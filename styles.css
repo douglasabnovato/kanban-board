@@ -41,6 +41,7 @@ main{
     margin: 4px;
     display: flex;
     flex-direction: column;
+
 }
 
 .board .title{
@@ -77,6 +78,8 @@ main{
 
 .board li:hover{
     cursor: move;
+    background-color: rgba(200,200,200,0.5);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 .board .todo-list .remove{
@@ -95,13 +98,15 @@ main{
 
 .board .add-card{
     background-color: rgba(200,200,200,0.8);
-    margin: 4px;
     border-radius: 2px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    margin: 4px 4px;
 }
 
 .board .add-card:hover{
     background-color: rgba(192, 182, 182, 0.95);
     cursor: pointer;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.4);
 }
 
 .board .add-card p{
