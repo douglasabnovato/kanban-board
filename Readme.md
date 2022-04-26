@@ -23,7 +23,9 @@
 - estrutura em html
 - estilização em css
 - google font com @import
-- lógica em javascript
+- lógica em javascript: adicionar tarefa
+- lógica em javascript: remover tarefa
+- lógica em javascript: arrastar tarefa entre os quadros
 
 ### 😯 Finalizado 
 

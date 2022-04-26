@@ -4,7 +4,7 @@ function addCard(elemento) {
   const board = document.getElementById(ulId);
 
   const template = `
-    <li>
+    <li id="${new Date().getTime()}">
         <p>${text}</p>
         <p onclick="removeCard(this)" class="remove">x</p>
     </li>
@@ -14,7 +14,7 @@ function addCard(elemento) {
 
 }
 
-function removeCard() {
-    alert("removeCard");
-  }
+function removeCard(elemento) {
+    document.getElementById(elemento.parentElement.id).remove();
+}
   
