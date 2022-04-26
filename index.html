@@ -16,9 +16,9 @@
     <main>
         <div class="board">
 
-            <h3 class="title">A Fazer</h3>
+            <h3 class="title">À Fazer</h3>
 
-            <ul class="todo-list">
+            <ul id="a-fazer" class="todo-list">
                 <li>
                     <p>Dormir</p>
                     <p class="remove">x</p>
@@ -57,24 +57,24 @@
                 </li>
             </ul>
 
-            <div class="add-card">
+            <div class="add-card" onclick="addCard()">
                 <p>Adicionar tarefa</p>
             </div>
 
         </div>
         <div class="board">
             <h3 class="title">Fazendo</h3>
-            <ul class="todo-list">
+            <ul id="fazendo" class="todo-list">
             </ul>
-            <div class="add-card">
+            <div class="add-card" onclick="addCard()">
                 <p>Adicionar tarefa</p>
             </div>
         </div>
         <div class="board">
-            <h3 class="title">Entregue</h3>
-            <ul class="todo-list">
+            <h3 class="title">Feito</h3>
+            <ul id="feito" class="todo-list">
             </ul>
-            <div class="add-card">
+            <div class="add-card" onclick="addCard()">
                 <p>Adicionar tarefa</p>
             </div>
         </div>
