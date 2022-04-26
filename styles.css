@@ -41,7 +41,6 @@ main{
     margin: 4px;
     display: flex;
     flex-direction: column;
-
 }
 
 .board .title{
@@ -55,7 +54,7 @@ main{
 
 .board ul{
     list-style-type: none;
-    min-height: 300px;
+    min-height: 330px;
     padding: 2px;
     display: flex;
     flex-wrap: wrap;
