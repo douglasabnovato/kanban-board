@@ -44,7 +44,7 @@
 
 ### 💻 Próximo passo
 
-- localStorage das tarefas
+- guardar as informações das tarefas no localStorage para recuperar em curto prazo
 
 ---  
 
