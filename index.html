@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="./styles.css">
     <title>Driven Kanban</title>
 </head>
+
 <body>
     <header>
         <h1>Driven Kanban</h1>
@@ -14,28 +16,21 @@
     <main>
         <div class="board">
             <h3 class="title">À Fazer</h3>
-            <ul id="a-fazer" class="todo-list" ondrop="drop(event, this.id)" ondragover="over(event)">
-                <li id="${new Date().getTime()}" draggable="true" ondraggstart="drag(event)">
-                    <p>Teste</p>
-                    <p onclick="removeCard(this)" class="remove">x</p>
-                </li>
-            </ul>
+            <ul id="a-fazer" class="todo-list" ondrop="drop(event, this.id)" ondragover="over(event)"></ul>
             <div class="add-card" onclick="addCard(this)">
                 <p>Adicionar tarefa</p>
             </div>
         </div>
         <div class="board">
             <h3 class="title">Fazendo</h3>
-            <ul id="fazendo" class="todo-list">
-            </ul>
+            <ul id="fazendo" class="todo-list" ondrop="drop(event, this.id)" ondragover="over(event)"></ul>
             <div class="add-card" onclick="addCard(this)">
                 <p>Adicionar tarefa</p>
             </div>
         </div>
         <div class="board">
             <h3 class="title">Feito</h3>
-            <ul id="feito" class="todo-list">
-            </ul>
+            <ul id="feito" class="todo-list" ondrop="drop(event, this.id)" ondragover="over(event)"></ul>
             <div class="add-card" onclick="addCard(this)">
                 <p>Adicionar tarefa</p>
             </div>
@@ -43,4 +38,5 @@
     </main>
     <script src="./main.js"></script>
 </body>
+
 </html>
