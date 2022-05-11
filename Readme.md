@@ -1,9 +1,9 @@
 <h1 align="center">
-    <img alt="Um kanban de tarefas" title="#DrivenChallengeKanban" src="./.github/template-1.jpg" />
+    <img alt="Um kanban de tarefas" title="#KanbanBoard" src="./.github/template-1.jpg" />
 </h1>
 
 <h4 align="center"> 
-	🚧 Driven Challenge Kanban 🚀
+	🚧 Kanban Board 🚀
 </h4> 
 
 ### 💻 Sobre o projeto
@@ -11,12 +11,13 @@
 - Desenvolver um kanban de tarefas com html, css e javascript.
 - Utilizar o template do layout a seguir para construir.
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Um kanban de tarefas" title="#DrivenChallengeKanban" src="./.github/template-1.jpg" width="400px">
+  <img alt="Um kanban de tarefas" title="#KanbanBoard" src="./.github/template-1.jpg" width="400px">
 </p>
 - O fluxo da aplicação é a seguinte:
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Um kanban de tarefas" title="#DrivenChallengeKanban" src="./.github/challeng-3.gif" width="600px">
+  <img alt="Um kanban de tarefas" title="#KanbanBoard" src="./.github/challeng-3.gif" width="600px">
 </p>
+- Inspiração: Desafio da Driven em construir aplicações com os fundamentos de js, html e js em um espaço curto de tempo.
 
 ### 🛠 Construindo 
 
@@ -32,8 +33,8 @@
 - Terminamos o terceiro desafio da driven. Nessa última tarefa foi utilizado recursos mais interessantes do javascript, manipulando com movimentos alguns elementos de tela.
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Um kanban de tarefas" title="#DrivenChallengeKanban" src="./.github/modo-1.jpg" width="400px">
-  <img alt="Um kanban de tarefas" title="#DrivenChallengeKanban" src="./.github/modo-2.jpg" height="400px">
+  <img alt="Um kanban de tarefas" title="#KanbanBoard" src="./.github/modo-1.jpg" width="400px">
+  <img alt="Um kanban de tarefas" title="#KanbanBoard" src="./.github/modo-2.jpg" height="400px">
 </p>
 
 ### 🧭 Adicionado
