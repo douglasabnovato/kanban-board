@@ -45,7 +45,11 @@
 
 ### 💻 Próximo passo
 
-- guardar as informações das tarefas no localStorage para recuperar em curto prazo
+- guardar as informações das tarefas no localStorage para recuperar em curto prazo 
+- responsividade
+- acessibilidade
+- modo dark / light
+- variação de cores
 
 ---  
 
